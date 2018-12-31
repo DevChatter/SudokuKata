@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SudokuSolver.Core
 {
@@ -7,7 +6,8 @@ namespace SudokuSolver.Core
     {
         public List<List<int>> Solve(List<List<int>> input)
         {
-            throw new NotImplementedException();
+            var puzzle = new Puzzle(input);
+            return puzzle.Solve().data;
         }
     }
 }
