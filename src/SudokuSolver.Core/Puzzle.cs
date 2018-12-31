@@ -71,8 +71,8 @@ namespace SudokuSolver.Core
 
         public (bool success, List<List<int>> data) Solve()
         {
-            Debug.Print("\n\nSolving Puzzle:\n");
-            Debug.Print(ToString());
+            //Debug.Print("\n\nSolving Puzzle:\n");
+            //Debug.Print(ToString());
 
             if (IsComplete())
             {
